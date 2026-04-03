@@ -1,0 +1,4 @@
+[2026-04-03 19:33:08] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("HTTPSConnection(host='this-host-does-not-exist-xyz.com', port=443): Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-04-03 19:33:10] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+[2026-04-03 19:40:56] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("HTTPSConnection(host='this-host-does-not-exist-xyz.com', port=443): Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno 11001] getaddrinfo failed)"))
+[2026-04-03 19:40:57] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
